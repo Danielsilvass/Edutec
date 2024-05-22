@@ -2,53 +2,211 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Kodchasan", sans-serif;
 }
 
 body {
-    background-image: url(./img/Imagem\ de\ fundo\ tela\ inicial.jpg);
+    background-image: url(./img/Imagem-de-fundo.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.principal {
+header {
     display: flex;
-    margin-inline-start: 41px;
-    margin-top: 1.75rem;
 }
 
-.principal h1 {
-    font-size: 2.7rem;
-    color: white;
+header img {
+    margin: 42px 0 0 66px;
 }
 
-.Logo {
-    height: 65px;
-    width: 60px;
-    margin-right: 8px;
+header h1 {
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+    margin: 60px 0 0 0;
+
 }
 
-.barra-principal {
-    margin-left: auto;
-}
-
-.a {
+.texto_principal {
+    color: #fff;
     display: flex;
-    gap: 141px;
-    margin-inline-end: 41px;
-    background-color: #8672AF;
-    padding-inline: 30px;
-    border-radius: 1.275rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.a:hover {
+.texto_principal h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-top: 73px;
+    margin-bottom: 22px;
+}
+
+.texto_principal p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    width: 793px;
+}
+
+.caixinhas {
+    display: flex;
+    gap: 489px;
+
+}
+
+.game {
+    width: 290px;
+    height: 313px;
+    background-color: rgba(127, 129, 131, 0.5);
+    border-radius: 60px;
+    margin-top: 128px;
+    margin-left: 267px;
+}
+
+.game div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game img {
+    width: 190px;
+    height: 176px;
+    margin-top: 18px;
+}
+
+.game button {
+    width: 202px;
+    height: 40.6px;
+    border-radius: 109px;
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: #D96ABB;
+    margin-top: 33px;
+
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game button:hover {
     cursor: pointer;
 }
 
-.a a {
-    font-size: 2.5rem;
+.estudo {
+    width: 290px;
+    height: 313px;
+    background-color: rgba(127, 129, 131, 0.5);
+    border-radius: 60px;
+    margin-top: 128px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+.estudo div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.estudo img {
+    width: 190px;
+    height: 197px;
+    margin-top: 7px;
+}
+
+.estudo button {
+    width: 202px;
+    height: 40.6px;
+    border-radius: 109px;
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: #8662AF;
+    margin-top: 33px;
+
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estudo button:hover {
+    cursor: pointer;
+}
+
+.sistema-solar {
+    width: 466px;
+    height: 790px;
+    border-radius: 89px;
+    background-color: rgba(127, 129, 131, 0.5);
+    color: #fff;
+
+    margin-top: 280px;
+    margin-left: -45px;
+}
+
+.sistema-solar div {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sistema-solar h1 {
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 40px;
+
+    margin-top: 41px;
+    margin-left: 87px;
+    margin-right: 53px;
+}
+
+.sistema-solar p {
+    width: 328px;
+    height: 480px;
+
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+
+    margin-top: 51px;
+    margin-left: 79px;
+    margin-right: 59px;
+}
+
+.sistema-solar button {
+    width: 234.5px;
+    height: 75.5px;
+    border-radius: 109px;
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: #B86AD9;
+    margin-top: 25px;
+
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
