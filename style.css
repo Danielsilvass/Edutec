@@ -55,8 +55,10 @@ header h1 {
 
 .caixinhas {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 489px;
-
+    margin-top: 128px;
 }
 
 .game {
@@ -64,8 +66,6 @@ header h1 {
     height: 313px;
     background-color: rgba(127, 129, 131, 0.5);
     border-radius: 60px;
-    margin-top: 128px;
-    margin-left: 267px;
 }
 
 .game div {
@@ -109,7 +109,6 @@ header h1 {
     height: 313px;
     background-color: rgba(127, 129, 131, 0.5);
     border-radius: 60px;
-    margin-top: 128px;
 }
 
 .estudo div {
