@@ -14,10 +14,12 @@ body {
 
 header {
     display: flex;
+    align-items: center;
+    margin-top: 34px;
 }
 
 header img {
-    margin: 42px 0 0 66px;
+    margin: 0 0 0 66px;
 }
 
 header h1 {
@@ -26,7 +28,26 @@ header h1 {
     line-height: 40px;
     font-family: "Inter", sans-serif;
     color: #fff;
-    margin: 60px 0 0 0;
+}
+
+.seta {
+    width: 64px;
+    height: 64px;
+    margin: auto;
+}
+
+header .fundo {
+    background-color: #8672AF;
+    width: 89px;
+    height: 84px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: 44px;
 }
 
 .texto_principal {
@@ -81,7 +102,7 @@ header h1 {
     margin-top: 18px;
 }
 
-.game button {
+.game a {
     width: 202px;
     height: 40.6px;
     border-radius: 109px;
@@ -94,37 +115,38 @@ header h1 {
     font-weight: 600;
     line-height: 40px;
     text-align: center;
+    text-decoration: none;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.game button:hover {
+.game a:hover {
     cursor: pointer;
 }
 
-.estudo {
+.Adicionais {
     width: 290px;
     height: 313px;
     background-color: rgba(127, 129, 131, 0.5);
     border-radius: 60px;
 }
 
-.estudo div {
+.Adicionais div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.estudo img {
+.Adicionais img {
     width: 190px;
     height: 197px;
     margin-top: 7px;
 }
 
-.estudo button {
+.Adicionais a {
     width: 202px;
     height: 40.6px;
     border-radius: 109px;
@@ -137,13 +159,14 @@ header h1 {
     font-weight: 600;
     line-height: 40px;
     text-align: center;
+    text-decoration: none;
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.estudo button:hover {
+.Adicionais button:hover {
     cursor: pointer;
 }
 
@@ -191,7 +214,7 @@ header h1 {
     margin-right: 59px;
 }
 
-.sistema-solar button {
+.sistema-solar a {
     width: 234.5px;
     height: 75.5px;
     border-radius: 109px;
@@ -203,7 +226,8 @@ header h1 {
     font-weight: 600;
     line-height: 40px;
     text-align: center;
-
+    text-decoration: none;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,4 +235,6 @@ header h1 {
     margin-top: 25px;
     margin-left: 119px;
     margin-right: 112.5px;
+
+
 }
