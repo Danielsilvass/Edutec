@@ -18,6 +18,10 @@ header {
     margin-top: 34px;
 }
 
+header a {
+    text-decoration: none;
+}
+
 header img {
     margin: 0 0 0 66px;
 }

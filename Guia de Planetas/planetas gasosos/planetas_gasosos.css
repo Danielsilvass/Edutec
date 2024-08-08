@@ -7,7 +7,7 @@
 
 body {
     background-color: #0F1722;
-    background-image: url(./img/Imagem\ de\ Fundo\ planetas\ rochosos.png);
+    background-image: url(./img/imagem\ de\ fundo\ .png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -16,6 +16,10 @@ header {
     display: flex;
     align-items: center;
     margin-top: 34px;
+}
+
+header a {
+    text-decoration: none;
 }
 
 header img {
