@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kodchasan", sans-serif;
+}
+
+body {
+    background-color: #0F1722;
+    background-image: url(./img/Imagem\ de\ Fundo\ planetas\ rochosos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+}
+
+header img {
+    margin: 0 0 0 66px;
+}
+
+header h1 {
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+.menu {
+    margin-left: auto;
+    background-color: #8672AF;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.menu .ativo {
+    color: #EE82EE;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 10px 20px;
+}
+
+.caixinhas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    margin-top: 144px;
+}
+
+.jupiter {
+    width: 322px;
+    height: 572px;
+    background-color: rgba(127, 129, 131, 0.5);
+    border-radius: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jupiter img {
+    margin-top: 14px;
+}
+
+.jupiter h2 {
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 16px;
+}
+
+.jupiter p {
+    width: 265px;
+    height: 232px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Fredoka;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+
+    margin-top: 22px;
+}
+
+.jupiter a {
+    width: 200px;
+    height: 40.6px;
+    border-radius: 10px;
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: #7A6DA6;
+    margin-top: 43px;
+
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.saturno {
+    width: 322px;
+    height: 572px;
+    background-color: rgba(127, 129, 131, 0.5);
+    border-radius: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saturno img {
+    margin-top: 14px;
+}
+
+.saturno h2 {
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 16px;
+}
+
+.saturno p {
+    width: 265px;
+    height: 232px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Fredoka;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+
+    margin-top: 22px;
+}
+
+.saturno a {
+    width: 200px;
+    height: 40.6px;
+    border-radius: 10px;
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: #796AD9;
+    margin-top: 43px;
+
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.urano {
+    width: 322px;
+    height: 572px;
+    background-color: rgba(127, 129, 131, 0.5);
+    border-radius: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.urano img {
+    margin-top: 14px;
+}
+
+.urano h2 {
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 16px;
+}
+
+.urano p {
+    width: 265px;
+    height: 232px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Fredoka;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+
+    margin-top: 22px;
+}
+
+.urano a {
+    width: 200px;
+    height: 40.6px;
+    border-radius: 10px;
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: #B86AD9;
+    margin-top: 43px;
+
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.netuno {
+    width: 322px;
+    height: 572px;
+    background-color: rgba(127, 129, 131, 0.5);
+    border-radius: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.netuno img {
+    margin-top: 14px;
+}
+
+.netuno h2 {
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 16px;
+}
+
+.netuno p {
+    width: 265px;
+    height: 232px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Fredoka;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+
+    margin-top: 22px;
+}
+
+.netuno a {
+    width: 200px;
+    height: 40.6px;
+    border-radius: 10px;
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: #D96ABB;
+    margin-top: 43px;
+
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta {
+    width: 64px;
+    height: 64px;
+}
+
+.fundo_seta_direita {
+    background-color: #8672AF;
+    width: 89px;
+    height: 84px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: 47px;
+    margin-top: 45px;
+}
