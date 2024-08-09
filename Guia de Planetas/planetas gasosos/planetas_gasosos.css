@@ -326,3 +326,24 @@ header h1 {
     margin-right: 47px;
     margin-top: 45px;
 }
+
+
+.seta {
+    width: 64px;
+    height: 64px;
+}
+
+.fundo_seta_esquerda {
+    background-color: #8672AF;
+    width: 89px;
+    height: 84px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: auto;
+    margin-left: 47px;
+    margin-top: 45px;
+}
