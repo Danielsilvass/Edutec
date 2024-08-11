@@ -29,7 +29,8 @@ const checkEndGame = () => {
 
     if (disabledCards.length == 20) {
         clearInterval(this.loop);
-        alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi: ${timer.innerHTML}`);
+        window.location = '../Resultado/resultado.html';
+        localStorage.setItem('timer', timer.innerHTML);
     }
 }
 
@@ -120,11 +121,9 @@ const starTimer = () => {
         const currentTimer = +timer.innerHTML;
         timer.innerHTML = currentTimer + 1;
     }, 1000);
-
 }
 
 window.onload = () => {
-    spanPlayer.innerHTML =  localStorage.getItem('player');
     starTimer();
     loadGame();
 }
