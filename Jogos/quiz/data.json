@@ -1,0 +1,108 @@
+{
+    "quizzes": [
+        {
+            "questions": [
+                {
+                    "question": "A nuvem apelidada de “Mancha Vermelha” faz parte de qual planeta?",
+                    "options": [
+                        "Vênus",
+                        "Marte",
+                        "Mercúrio",
+                        "Júpiter"
+                    ],
+                    "answer": "Júpiter"
+                },
+                {
+                    "question": "Quais são as camadas internas da Terra?",
+                    "options": [
+                        "Crosta Terrestre, Manto e Núcleo",
+                        "Atmosfera, Hidrosfera, Litosfera e Biosfera",
+                        "Geosfera, Manto, Crosta Terrestre",
+                        "Hidrogênio, Litrogênio, nucleico"
+                    ],
+                    "answer": "Crosta Terrestre, Manto e Núcleo"
+                },
+                {
+                    "question": "Quantos dias demora a translação de Marte?",
+                    "options": [
+                        "678 dias",
+                        "687 dias",
+                        "786 dias",
+                        "876 dias"
+                    ],
+                    "answer": "687 dias"
+                },
+                {
+                    "question": "Quantas vezes o Sol é maior que a Terra?",
+                    "options": [
+                        "1000X",
+                        "109X",
+                        "190X",
+                        "10X"
+                    ],
+                    "answer": "109X."
+                },
+                {
+                    "question": "Quantas luas possui o planeta Urano?",
+                    "options": [
+                        "27",
+                        "72",
+                        "17",
+                        "20"
+                    ],
+                    "answer": "27"
+                },
+                {
+                    "question": "Em qual galáxia a Terra fica localizada?",
+                    "options": [
+                        "Via Láctea",
+                        "Andrômeda",
+                        "Nuvem de Magalhães",
+                        "Galáxia do Triângulo"
+                    ],
+                    "answer": "Via Láctea"
+                },
+                {
+                    "question": "Até quantos graus celsius chega o planeta Marte no inverno?",
+                    "options": [
+                        "-135°C",
+                        "-25°C",
+                        "-125°C",
+                        "-5°C"
+                    ],
+                    "answer": "-125°C"
+                },
+                {
+                    "question": "Qual planeta possui 82 luas?",
+                    "options": [
+                        "Mercúrio",
+                        "Júpiter",
+                        "Netuno",
+                        "Saturno"
+                    ],
+                    "answer": "Saturno"
+                },
+                {
+                    "question": "Qual o 3º maior planeta do sistema solar?",
+                    "options": [
+                        "Marte",
+                        "Terra",
+                        "Saturno",
+                        "Urano"
+                    ],
+                    "answer": "Urano"
+                },
+                {
+                    "question": "Quanto tempo dura em aproximadamente a translação em Netuno?",
+                    "options": [
+                        "165 anos",
+                        "100 anos",
+                        "85 anos",
+                        "256 anos"
+                    ],
+                    "answer": "165 anos"
+                }
+            ]
+        }
+    ]
+}
