@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kodchasan", sans-serif;
+}
+
+body {
+    background-color: #0F1722;
+    background-image: url(./img/starry-sky-night-mountains-radiance-glitter-1213887-wallhere\ 5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header img {
+    margin: 0 0 0 66px;
+}
+
+header h1 {
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+.menu {
+    margin-left: auto;
+    background-color: #8672AF;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.menu .ativo {
+    color: #EE82EE;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 10px 20px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.pergunta {
+    margin-left: 36px;
+    width: 496px;
+    margin-bottom: 40px;
+}
+
+.pergunta p {
+    font-style: italic;
+    font-size: 24px;
+    color: #f0f5ff;
+    margin-bottom: 12px;
+}
+
+.pergunta h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #d6d6d6;
+    line-height: 40px;
+    margin-bottom: 138px;
+}
+
+.pergunta button {
+    border-radius: 12px;
+    border: none;
+    background: #a729f5;
+    color: #fff;
+    width: 100%;
+    height: 98px;
+    margin-top: 28px;
+    cursor: pointer;
+
+    font-size: 48px;
+    font-weight: 200;
+    transition: background 0.3s;
+}
+
+.barra_progresso {
+    background: #fff;
+    height: 16px;
+    padding: 4px;
+    border-radius: 999px;
+}
+
+.barra_progresso div {
+    height: 100%;
+    background: #a729f5;
+    border-radius: 999px;
+}
+
+.alternativas {
+    width: 725px;
+    height: 293px;
+    margin-right: 58px;
+}
+
+.alternativas form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.alternativas label {
+    display: block;
+    height: 98px;
+    background: #fff;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    color: #313e51;
+    cursor: pointer;
+
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.alternativas label:hover {
+    & span {
+        background: #d1d1d1;
+        color: #a729f5;
+    }
+}
+
+.alternativas label:has(input:checked) {
+    outline: 3px solid #a729f5;
+
+    & span {
+        background: #b4b4b4;
+        color: #a729f5;
+    }
+}
+
+.alternativas label#correta {
+    outline: 3px solid #26d782;
+
+    & span {
+        background: #26d782;
+        color: #fff;
+    }
+}
+
+.alternativas label#errada {
+    outline: 3px solid #ee5454;
+
+    & span {
+        background: #ee5454;
+        color: #fff;
+    }
+}
+
+.alternativas input {
+    display: none;
+}
+
+.alternativas div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.alternativas div span {
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background: #a729f5;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+}
+
+.alternativas button:hover {
+        background: var(#7b1fb4);
+        cursor: pointer;
+}

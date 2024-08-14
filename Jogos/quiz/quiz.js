@@ -15,7 +15,8 @@ const handleSubmit = (event) => {
     event.preventDefault();
     
     localStorage.setItem('player', input.value)
-    window.location = 'Jogo/jogo.html';
+    localStorage.setItem('assunto', 'SolarSistema')
+    window.location = './jogo/jogo.html';
 }
 
 input.addEventListener('input', validadeInput)
