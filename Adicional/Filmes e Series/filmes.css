@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kodchasan", sans-serif;
+}
+
+body {
+    background-color: #0F1722;
+    background-image: url(./img/earth-depicted-anime-style\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header img {
+    margin: 0 0 0 66px;
+}
+
+header h1 {
+    font-size: 31px;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+
+.menu {
+    margin-left: auto;
+    background-color: #8672AF;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.menu .ativo {
+    color: #EE82EE;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 10px 20px;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.principal div {
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.principal p {
+    color: #FFF;
+    font-family: Kodchasan;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+
+    width: 1040px;
+}
+
+.botao {
+    color: #FFF;
+    font-family: Kodchasan;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 10px; 
+    text-decoration: none;
+
+    margin-top: 51px;
+
+    border-radius: 19px;
+    border: 5px solid #FFF;
+}
+
+.filmes h2 {
+    color: #FFF;
+    font-family: Kodchasan;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-left: 56px;
+    margin-top: 57px;
+    margin-bottom: 42px;
+}
+
+.filme {
+    display: flex;
+    justify-content: space-between;
+}
