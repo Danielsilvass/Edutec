@@ -5,6 +5,10 @@
     font-family: "Kodchasan", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #0F1722;
     background-image: url(./img/Imagen-fundo.png);
