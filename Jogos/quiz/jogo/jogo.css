@@ -59,12 +59,14 @@ header h1 {
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 458px;
     margin-top: 150px;
+    max-width: 1440px;
+    margin-inline: auto;
 }
 
 .pergunta {
-    margin-left: 36px;
     width: 496px;
     margin-bottom: 40px;
 }
@@ -115,7 +117,6 @@ main {
 .alternativas {
     width: 725px;
     height: 293px;
-    margin-right: 58px;
 }
 
 .alternativas form {
