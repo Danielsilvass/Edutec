@@ -61,6 +61,8 @@ main {
     display: flex;
     justify-content: space-between;
     margin-top: 140px;
+    max-width: 1440px;
+    margin-inline: auto;
 }
 
 main h2 {

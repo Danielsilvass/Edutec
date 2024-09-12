@@ -54,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             
             var iframeSrc =`./modals/${dataValue}/${dataValue}.html`;
             console.log('O src do iframe agora é:',iframeSrc);
+            document.getElementById('iframe-marte').src = iframeSrc;
             
             document.getElementById('modalmarte').style.display = 'flex';
         });
