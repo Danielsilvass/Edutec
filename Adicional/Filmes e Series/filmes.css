@@ -113,7 +113,6 @@ header h1 {
     position: relative; /* Use relative para que a posição seja ajustável */
     width: 100%;
     height: 100%;
-    overflow-x: auto; /* Permite a rolagem horizontal se necessário */
     white-space: nowrap; /* Evita que os itens quebrem em uma nova linha */
 }
 
@@ -135,7 +134,14 @@ header h1 {
     width: 100%;
     height: 367px;
     background-size: cover; /* Ajusta a imagem para cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
+    background-position: center; /* Centraliza a imagem */    
+}
+.container a img{
+    transition: 0.3s ease-in-out;
+}
+
+.container a img:hover {
+    transform: scale(1.1);
 }
 
 .bntleft {
@@ -144,7 +150,6 @@ header h1 {
     left: 0;
     width: 30px;
     height: 367px;
-    opacity: 0.3;
     cursor: pointer;
     z-index: 3;
 }
@@ -155,21 +160,59 @@ header h1 {
     right: 0;
     width: 30px;
     height: 367px;
-    opacity: 0.3;
     cursor: pointer;
     z-index: 3;
 }
 
 .bntleft, .bntright {
-    opacity: 0.8; /* Deixe mais visível */
+    opacity: 0.3; /* Deixe mais visível */
     transition: opacity 0.3s; /* Transição suave na opacidade */
+    border: none;
+    background-color: #ffffff;
 }
 
 .bntleft:hover, .bntright:hover {
     opacity: 1; /* Aumenta a opacidade ao passar o mouse */
+    background-color: #525050;
 }
 .limitador {
     color: gray;
     background-color: gray;
     height: 367px;
+}
+
+.modal {
+    display: none; /* Escondido por padrão */
+    position: fixed; 
+    z-index: 4; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-marte {
+    padding: 20px;
+    border: 5px;
+    width: 80%;
+    height: 80%;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 80px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.iframe-marte {
+    width: 100%;
+    height: 100%;
+    border: none;
 }

@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,10 +24,10 @@ body {
 .image-container img {
     width: 100%;
     height: auto;
+    margin-bottom: 20px;
 }
 
 .content {
-    padding: 20px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -54,4 +54,6 @@ button {
 
 button:hover {
     background-color: #ddd;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.05);
 }
