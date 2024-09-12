@@ -1,6 +1,8 @@
 var num = 300;
 var num2 = 300;
 
+ 
+
 var carrosseis = document.querySelectorAll('.carrossel');
 
 carrosseis.forEach(function(carrossel) {
@@ -40,17 +42,30 @@ carrosseis.forEach(function(carrossel) {
     });
 });
 
-document.getElementById("openmarte").onclick = function() {
-    event.preventDefault()
-    document.getElementById("modalmarte").style.display = "flex";
-};
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.item').forEach(function(item) {
+        item.addEventListener('click', function(event) {
+            event.preventDefault(); 
 
-document.getElementById("close-marte").onclick = function() {
-    document.getElementById("modalmarte").style.display = "none";
-};
+            var dataValue = this.getAttribute('data-value');
+            
+            localStorage.setItem('selectedDataValue', dataValue);
+            console.log('data-value recuperado:', dataValue);
+            
+            var iframeSrc =`./modals/${dataValue}/${dataValue}.html`;
+            console.log('O src do iframe agora é:',iframeSrc);
+            
+            document.getElementById('modalmarte').style.display = 'flex';
+        });
+    });
 
-window.onclick = function(event) {
-    if (event.target == document.getElementById("modalmarte")) {
-        document.getElementById("modalmarte").style.display = "none";
-    }
-};
+    document.getElementById('close-marte').onclick = function() {
+        document.getElementById('modalmarte').style.display = 'none';
+    };
+    
+    window.onclick = function(event) {
+        if (event.target == document.getElementById('modalmarte')) {
+            document.getElementById('modalmarte').style.display = 'none';
+        }
+    };
+});
