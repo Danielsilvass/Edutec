@@ -94,6 +94,9 @@ header h1 {
     border-radius: 19px;
     border: 5px solid #FFF;
 }
+.filmes {
+    margin-bottom: 84px;
+}
 
 .filmes h2 {
     color: #FFF;
@@ -106,7 +109,67 @@ header h1 {
     margin-bottom: 42px;
 }
 
-.filme {
-    display: flex;
-    justify-content: space-between;
+.carrossel {
+    position: relative; /* Use relative para que a posição seja ajustável */
+    width: 100%;
+    height: 100%;
+    overflow-x: auto; /* Permite a rolagem horizontal se necessário */
+    white-space: nowrap; /* Evita que os itens quebrem em uma nova linha */
+}
+
+.container {
+    display: inline-flex; /* Para organizar os itens em linha horizontal */
+    transition: 0.6s ease-in-out;
+}
+
+.container .item {
+    display: inline-block; /* Evita quebra de linha */
+    margin: 0 65px;
+    width: 220px;
+    height: 367px;
+    z-index: 2;
+}
+
+
+.container .item .img {
+    width: 100%;
+    height: 367px;
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.bntleft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 367px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.bntright {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 367px;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.bntleft, .bntright {
+    opacity: 0.8; /* Deixe mais visível */
+    transition: opacity 0.3s; /* Transição suave na opacidade */
+}
+
+.bntleft:hover, .bntright:hover {
+    opacity: 1; /* Aumenta a opacidade ao passar o mouse */
+}
+.limitador {
+    color: gray;
+    background-color: gray;
+    height: 367px;
 }
