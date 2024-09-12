@@ -10,6 +10,7 @@ body {
     background-image: url(./img/earth-depicted-anime-style\ 1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 header {
@@ -109,6 +110,12 @@ header h1 {
     margin-bottom: 42px;
 }
 
+.filmes a img {
+    width: 229px;
+    height: 379px;
+    border-radius: 44px;
+}
+
 .carrossel {
     position: relative; /* Use relative para que a posição seja ajustável */
     width: 100%;
@@ -124,8 +131,9 @@ header h1 {
 .container .item {
     display: inline-block; /* Evita quebra de linha */
     margin: 0 65px;
-    width: 220px;
-    height: 367px;
+    width: 229px;
+    height: 379px;
+    border-radius: 44px;
     z-index: 2;
 }
 
