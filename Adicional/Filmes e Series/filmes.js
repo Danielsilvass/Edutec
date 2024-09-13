@@ -45,7 +45,7 @@ carrosseis.forEach(function(carrossel) {
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.item').forEach(function(item) {
         item.addEventListener('click', function(event) {
-            event.preventDefault(); 
+            event.preventDefault();
 
             var dataValue = this.getAttribute('data-value');
             
