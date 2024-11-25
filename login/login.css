@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../img/fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: #fff;
+}
+
+
+.login-container {
+    width: 450px;
+    padding: 30px;
+    background-color: #8571AE;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #8571AE;
+}
+
+input::placeholder{
+    color: #FFFF;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    background-color: #A261AD;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #43084D;
+    transition: 0.3s;
+    transform: scale(1.06);
+}
+
+p {
+    color: #fff;
+}
+
+a {
+    color: #43084D;
+}
