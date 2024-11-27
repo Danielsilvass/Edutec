@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastro.css">
+    <script src="./cadastro.js" defer></script>
     <title>Cadastro</title>
 </head>
 <body>
@@ -13,13 +14,13 @@
         
         <form id="CadastroForm">
             
-            <input type="text" id="username" placeholder="Username" required>
+            <input type="text" id="username" placeholder="Username">
             
-            <input type="email" id="email" placeholder="E-mail" required>
-            <input type="password" id="password" placeholder="Senha" required>
-            <input type="password" id="confirm-password" placeholder="Confirme a senha" required>
+            <input type="email" id="email" placeholder="E-mail">
+            <input type="password" id="password" placeholder="Senha">
+            <input type="password" id="confirm-password" placeholder="Confirme a senha">
             
-            <button type="submit">Registre-se</button>
+            <button class="botao">Registre-se</button>
         </form>
         
         <p>Já tem uma conta? <a href="../login/login.html">Faça login</a></p>

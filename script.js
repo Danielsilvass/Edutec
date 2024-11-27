@@ -1,11 +1,14 @@
-function verifyToken() {
-    const token = localStorage.getItem("token")
+import { verifyToken } from "./utils/verify-token.js";
+import { getname } from "./utils/get-name.js"
+import { logout } from "./utils/logout.js";
 
-    if (!token) {
-        window.location.href = "./login/login.html"
-        return    
-    }
-    
-}
+const url = "./login/login.html"
 
-verifyToken()
+verifyToken(url)
+const name = await getname()
+
+const nameP = document.querySelector(".user p")
+
+nameP.innerText = `Usuário: ${name}`
+
+logout()

@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
 }
 
-header {
+header div {
     display: flex;
     align-items: center;
     margin-top: 34px;
@@ -32,6 +32,38 @@ header h1 {
     line-height: 40px;
     font-family: "Inter", sans-serif;
     color: #fff;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    margin: 5px;
+}
+
+.user p{
+    color: #fff;
+    font-size: 20px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.user button{
+    background-color: #8672AF;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 2px;
+    text-align: center;
+    text-align: center;
+    border-radius: 8px;
 }
 
 .seta {
