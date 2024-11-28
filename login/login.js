@@ -24,6 +24,7 @@ async function login() {
         console.log(response.token)
         localStorage.setItem("token", response.token)
         window.location.href = "../index.html"
+        return
     }
 
     alert(response.message)
